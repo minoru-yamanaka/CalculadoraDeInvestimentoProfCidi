@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvValorPresente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor Presente"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etValorPresente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="20sp"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/tvInvestimentoMensal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Investimento Mensal"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etInvestimentoMensal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvTaxaJuros1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taxa de Juros"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etTaxaJuros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvPrazoAplicacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantidade de Meses"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etPrazoAplicacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cursorVisible="false"
+        android:text="Calcular" />
+
+    <TextView
+        android:id="@+id/tvFrasedeResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvValorFuturo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnLimpar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limpar" />
+
+</LinearLayout>
